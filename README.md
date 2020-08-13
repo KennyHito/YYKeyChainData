@@ -30,6 +30,7 @@
 
 第一步,打开应用的钥匙串权限
 Target - Capabilities - KeychainSharing - ON
+![图一](https://github.com/NSLog-YuHaitao/YYKeyChainData/blob/master/image/1.png)
 
 第二步,集成YYKeyChainData
 
@@ -37,4 +38,4 @@ Target - Capabilities - KeychainSharing - ON
 pod 'YYKeyChainData'
 ```
 
-无论你怎么折腾都会保证同一设备每次获取到的UUID都是一致的，卸载应用，开启广告限制跟踪，系统升级都不会有影响。越狱刷机这种骚操作我没有测过，即使有问题，感觉这些调皮的用户也可以忽略了，因为这个已经是目前最好的解决办法了，如果大家有什么更好的解决方案，还请评论区指正。
+无论你怎么折腾都会保证同一设备每次获取到的UUID都是一致的，卸载应用，开启广告限制跟踪，系统升级都不会有影响。越狱刷机这种骚操作我没有测过，即使有问题，感觉这些调皮的用户也可以忽略了，因为这个已经是目前最好的解决办法了，如果大家有什么更好的解决方案，还请issues区指正。
