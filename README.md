@@ -46,4 +46,9 @@ pod 'YYKeyChainData'
 [YYKeyChainData getUUIDByKeyChain]
 ```
 
+注意:
+上架App Store需要按图二配置
+![图二](https://github.com/NSLog-YuHaitao/YYKeyChainData/blob/master/image/2.png)
+
+
 无论你怎么折腾都会保证同一设备每次获取到的UUID都是一致的，卸载应用，开启广告限制跟踪，系统升级都不会有影响。越狱刷机这种骚操作我没有测过，即使有问题，感觉这些调皮的用户也可以忽略了，因为这个已经是目前最好的解决办法了，如果大家有什么更好的解决方案，还请issues区指正。
